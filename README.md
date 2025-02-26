@@ -48,7 +48,7 @@
 ## <img alt="GIF" src="/images/dev.gif" width="50" /> WakaTime
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-5%2C596%20hrs%2016%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-5%2C591%20hrs%2049%20mins-blue)
 
 📊 **This Week I Spent My Time On** 
 
@@ -67,7 +67,7 @@ Ssms                     1 hr 13 mins        ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜�
 ```
 
 
- Last Updated on 2025/02/26 12:04:54 UTC
+ Last Updated on 2025/02/26 18:04:02 UTC
 <!--END_SECTION:waka-->
 
 ![end.webp](/images/end.webp)
