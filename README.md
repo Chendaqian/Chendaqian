@@ -8,7 +8,7 @@
 <img align="right" alt="GIF" src="/images/code.gif" width="300" height="150" title="do what you like, and do it best">
 
 - :telescope: I’m now working in [Beijing](https://english.beijing.gov.cn/).
-- :smile: currently coding in [CSharp](https://learn.microsoft.com/en-us/dotnet/csharp) and [Java](https://dev.java"). 
+- :smile: currently coding in [CSharp](https://learn.microsoft.com/en-us/dotnet/csharp) and [Java](https://dev.java). 
 - :gift_heart: I like playing [DarkSouls](https://www.xbox.com/en-us/games/store/DARK-SOULS-III/BW2XDRNSCCPZ):fire: and [Road cyclin](https://chendaqian.github.io/sport-records/):bicyclist:.
 - :question: Be free to ask me about anything [here](https://github.com/ChenDaqian/ChenDaqian/issues).
 
