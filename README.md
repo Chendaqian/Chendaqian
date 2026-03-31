@@ -9,7 +9,7 @@
 
 - :telescope: I’m now working in [Beijing](https://english.beijing.gov.cn/).
 - :smile: currently coding in [CSharp](https://learn.microsoft.com/en-us/dotnet/csharp) and [Java](https://dev.java). 
-- :gift_heart: I like playing [DarkSouls](https://www.xbox.com/en-us/games/store/DARK-SOULS-III/BW2XDRNSCCPZ):fire: and [Road cyclin](https://chendaqian.github.io/sport-records/):bicyclist:.
+- :gift_heart: I like playing [DarkSouls](https://www.xbox.com/en-us/games/store/DARK-SOULS-III/BW2XDRNSCCPZ):fire: and [Road cycling](https://chendaqian.github.io/sport-records/):bicyclist:.
 - :question: Be free to ask me about anything [here](https://github.com/ChenDaqian/ChenDaqian/issues).
 
 [![Typing SVG](/images/code.svg)](https://git.io/typing-svg)
@@ -27,7 +27,7 @@
 [![rabbitmq](/images/rabbitmq.svg)](https://www.rabbitmq.com/)
 [![apachecassandra](/images/cassandra.svg)](https://cassandra.apache.org/index.html)
 [![consul](/images/consul.svg)](https://www.consul.io/)
-[![Visual Studio](/images/visualstudio.svg)](https://visualstudio.microsoft.com/z)
+[![Visual Studio](/images/visualstudio.svg)](https://visualstudio.microsoft.com/)
 [![VS Code](/images/vscode.svg)](https://code.visualstudio.com/)
 [![LINQPad](/images/linqpad.svg)](https://www.linqpad.net/)
 [![Git](/images/git.svg)](https://git-scm.com/)
@@ -40,8 +40,8 @@
 ## <img src="/images/mc.gif" width="50"> My Contributions
 
 <!-- github统计组件 -->
-<img align="left" style="width: 400px;height: 250px;max-width: 100%;padding-right: 0px;" src="https://github-readme-stats.vercel.app/api?username=ChenDaqian&show_icons=true&hide_border=true">
-<img align="right" style="max-width: 100%;height: 250px;width: 250px;padding-left: 0px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChenDaqian&hide_border=true">
+<img align="left" style="width: 400px;height: 250px;max-width: 100%;padding-right: 0px;" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ChenDaqian&theme=github">
+<img align="right" style="max-width: 100%;height: 250px;width: 250px;padding-left: 0px;" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ChenDaqian&theme=github">
 
 [![commit snk](https://raw.githubusercontent.com/chendaqian/chendaqian/output/github-contribution-grid-snake.svg)](https://github.com/Platane/snk)
 
