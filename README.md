@@ -48,7 +48,7 @@
 ## <img alt="GIF" src="/images/dev.gif" width="50" /> WakaTime
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-6%2C913%20hrs%209%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-6%2C909%20hrs%2021%20mins-blue?style=flat)
 
 📊 **This Week I Spent My Time On** 
 
@@ -67,7 +67,7 @@ VS Code                  3 hrs 53 mins       ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜�
 ```
 
 
- Last Updated on 2026/06/14 12:38:51 UTC
+ Last Updated on 2026/06/14 18:29:29 UTC
 <!--END_SECTION:waka-->
 
 ![end.webp](/images/end.webp)
