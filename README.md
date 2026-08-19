@@ -45,7 +45,7 @@
 
 <div>
     <a href="https://ghfind.com/u/chendaqian?ref=badge"><img src="https://ghfind.com/api/card/mini/chendaqian?variant=radar&theme=light&lang=zh" alt="GitHub Roast 评分卡" width="440" /></a>
-    <a href="https://ghfind.com/u/chendaqian?ref=badge"><img src="https://ghfind.com/api/card/mini/chendaqian?theme=light&lang=zh" alt="GitHub Roast 评分卡" width="440" /></a>
+    <a href="https://ghfind.com/u/chendaqian?ref=badge"><img src="https://ghfind.com/api/card/mini/chendaqian?theme=light&lang=zh" alt="GitHub Roast 评分卡" width="440" style="margin-right: 50px;" /></a>
 </div>
 
 [![commit snk](https://raw.githubusercontent.com/chendaqian/chendaqian/output/github-contribution-grid-snake.svg)](https://github.com/Platane/snk)
