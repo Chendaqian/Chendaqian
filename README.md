@@ -43,8 +43,10 @@
 <img align="left" style="width: 400px;height: 250px;max-width: 100%;padding-right: 0px;" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ChenDaqian&theme=github">
 <img align="right" style="max-width: 100%;height: 250px;width: 250px;padding-left: 0px;" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ChenDaqian&theme=github">
 
-<a href="https://ghfind.com/u/chendaqian?ref=badge"><img src="https://ghfind.com/api/card/mini/chendaqian?variant=radar&theme=light&lang=zh" alt="GitHub Roast 评分卡" width="440" /></a>
-<a href="https://ghfind.com/u/chendaqian?ref=badge"><img src="https://ghfind.com/api/card/mini/chendaqian?theme=light&lang=zh" alt="GitHub Roast 评分卡" width="440" /></a>
+<div>
+    <a href="https://ghfind.com/u/chendaqian?ref=badge"><img src="https://ghfind.com/api/card/mini/chendaqian?variant=radar&theme=light&lang=zh" alt="GitHub Roast 评分卡" width="440" /></a>
+    <a href="https://ghfind.com/u/chendaqian?ref=badge"><img src="https://ghfind.com/api/card/mini/chendaqian?theme=light&lang=zh" alt="GitHub Roast 评分卡" width="440" /></a>
+</div>
 
 [![commit snk](https://raw.githubusercontent.com/chendaqian/chendaqian/output/github-contribution-grid-snake.svg)](https://github.com/Platane/snk)
 
