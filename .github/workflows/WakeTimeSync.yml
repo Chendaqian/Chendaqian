@@ -9,6 +9,8 @@ jobs:
   update-readme:
     name: Update Readme with Metrics
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: anmol098/waka-readme-stats@master
         with:
@@ -29,3 +31,38 @@ jobs:
           "SHOW_LANGUAGE_PER_REPO": "False"
           "SHOW_LOC_CHART": "False"
           "SYMBOL_VERSION": "3"
+      # 统计 Action 会把 Code Time / AI Code Time 两个徽章生成为两个段落（上下排列），
+      # 这里在统计提交完成后拉取最新 README，把两个徽章合并到同一行再提交。
+      # 使用内置 GITHUB_TOKEN 提交，不会再次触发 GenerateSnake 等工作流。
+      - name: Inline WakaTime badges
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git clone --depth 1 "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" readme-fix
+          cd readme-fix
+          python3 - <<'PY'
+          import re
+
+          path = 'README.md'
+          with open(path, encoding='utf-8', newline='') as file:
+              text = file.read()
+
+          # 把两个徽章之间的空行压缩为一个空格；若已在同一行则保持不变
+          text = re.sub(
+              r'(!\[Code Time\]\([^)]+\))\s+(!\[AI Code Time\]\([^)]+\))',
+              r'\1 \2',
+              text)
+
+          with open(path, 'w', encoding='utf-8', newline='') as file:
+              file.write(text)
+          PY
+          if git diff --quiet -- README.md; then
+            echo 'Badges already inline, skip commit.'
+          else
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add README.md
+            git commit -m 'style: inline WakaTime badges'
+            git push
+          fi
