@@ -42,8 +42,8 @@
 [![commit snk](https://raw.githubusercontent.com/chendaqian/chendaqian/output/github-contribution-grid-snake.svg)](https://github.com/Platane/snk)
 
 <!-- github统计组件 -->
-<img align="top" width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ChenDaqian&theme=github">
-<img align="top" width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ChenDaqian&theme=github">
+<span><img align="top" width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ChenDaqian&theme=github"></span>
+<span><img align="top" width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ChenDaqian&theme=github"></span>
 <a href="https://ghfind.com/u/chendaqian?ref=badge"><img align="top" width="48%" src="https://ghfind.com/api/card/mini/chendaqian?variant=radar&theme=light&lang=zh" alt="GitHub Roast 评分卡"></a>
 <a href="https://ghfind.com/u/chendaqian?ref=badge"><img align="top" width="48%" src="https://ghfind.com/api/card/mini/chendaqian?theme=light&lang=zh" alt="GitHub Roast 评分卡"></a>
 
