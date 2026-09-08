@@ -2,8 +2,8 @@ name: Daily Inspection Reminder
 
 on:
   schedule:
-    # 东八区（UTC+8）每天早晨 11:00 = UTC 03:00
-    - cron: '30 2 * * *'
+    # 东八区（UTC+8）周一至周五早晨 10:30 = UTC 02:30，cron 末位 1-5 表示周一到周五
+    - cron: '30 2 * * 1-5'
   # 支持手动触发，方便测试
   workflow_dispatch:
 
@@ -16,9 +16,22 @@ jobs:
     steps:
       - name: Send reminder to WeChat Work webhook
         run: |
+          # 按东八区取当天星期几（1=周一 ... 7=周日），确定今日值日人（手动触发同样按当天星期选人）
+          day=$(TZ='Asia/Shanghai' date +%u)
+          case "$day" in
+            1) userName='石永富' ;;
+            2) userName='王刚、胡春华' ;;
+            3) userName='常竹林' ;;
+            4) userName='陈旭、曹桂源' ;;
+            5) userName='肖禹辰' ;;
+            *) echo '-' && exit 0 ;;
+          esac
+          content="Ciallo～(∠・ω< )⌒★  <font color=\"warning\">${userName}</font> 记得每日巡检"
+          # 用 jq 构建 JSON，content 中的引号会被自动转义，避免手工拼接产生非法 JSON（jq 为 ubuntu runner 预装）
+          payload=$(jq -n --arg content "$content" '{msgtype: "markdown", markdown: {content: $content}}')
           response=$(curl -s -X POST 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=c4178585-4957-4503-85f6-ba147a00f1fd' \
             -H 'Content-Type: application/json' \
-            -d '{"msgtype": "markdown", "markdown": {"content": "Ciallo～(∠・ω< )⌒★ 记得每日巡检"}}')
+            -d "$payload")
           echo "Webhook response: $response"
           # errcode 非 0 时让步骤失败，便于在 Actions 页面直接看到异常
           echo "$response" | grep -q '"errcode":0' || exit 1
