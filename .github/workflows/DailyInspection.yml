@@ -1,0 +1,24 @@
+name: Daily Inspection Reminder
+
+on:
+  schedule:
+    # 东八区（UTC+8）每天早晨 11:00 = UTC 03:00
+    - cron: '0 3 * * *'
+  # 支持手动触发，方便测试
+  workflow_dispatch:
+
+jobs:
+  push-reminder:
+    name: Push WeChat Work Reminder
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Send reminder to WeChat Work webhook
+        run: |
+          response=$(curl -s -X POST 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=14acdade-b190-4a15-9980-d60be4d714ad' \
+            -H 'Content-Type: application/json' \
+            -d '{"msgtype": "markdown", "markdown": {"content": "Ciallo～(∠・ω< )⌒★ 记得每日巡检"}}')
+          echo "Webhook response: $response"
+          # errcode 非 0 时让步骤失败，便于在 Actions 页面直接看到异常
+          echo "$response" | grep -q '"errcode":0' || exit 1
