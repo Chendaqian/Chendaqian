@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Send reminder to WeChat Work webhook
         run: |
-          response=$(curl -s -X POST 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=14acdade-b190-4a15-9980-d60be4d714ad' \
+          response=$(curl -s -X POST 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=c4178585-4957-4503-85f6-ba147a00f1fd' \
             -H 'Content-Type: application/json' \
             -d '{"msgtype": "markdown", "markdown": {"content": "Ciallo～(∠・ω< )⌒★ 记得每日巡检"}}')
           echo "Webhook response: $response"
