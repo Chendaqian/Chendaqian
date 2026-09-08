@@ -18,7 +18,7 @@ jobs:
         run: |
           response=$(curl -s -X POST 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=c4178585-4957-4503-85f6-ba147a00f1fd' \
             -H 'Content-Type: application/json' \
-            -d '{"msgtype": "markdown", "markdown": {"content": "@陈旭 Ciallo～(∠・ω< )⌒★ 记得每日巡检"}}')
+            -d '{"msgtype": "markdown", "markdown": {"content": "@chenxu5 Ciallo～(∠・ω< )⌒★ 记得每日巡检"}}')
           echo "Webhook response: $response"
           # errcode 非 0 时让步骤失败，便于在 Actions 页面直接看到异常
           echo "$response" | grep -q '"errcode":0' || exit 1
