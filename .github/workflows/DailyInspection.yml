@@ -3,7 +3,7 @@ name: Daily Inspection Reminder
 on:
   schedule:
     # 东八区（UTC+8）每天早晨 11:00 = UTC 03:00
-    - cron: '0 3 * * *'
+    - cron: '30 2 * * *'
   # 支持手动触发，方便测试
   workflow_dispatch:
 
