@@ -2,8 +2,10 @@ name: Daily Inspection Reminder
 
 on:
   schedule:
-    # 东八区（UTC+8）周一至周五早晨 10:30 = UTC 02:30，cron 末位 1-5 表示周一到周五
-    - cron: '30 2 * * 1-5'
+    # 名义时间 UTC 00:00（东八区 08:00），与 generate animation 同一时刻（该文件写作 0 */24 * * *，等价）。
+    # GitHub 定时调度实测长期延迟 1~3 小时（个别日子延迟 7~9 小时），实际推送多落在东八区 10:00~11:10。
+    # 未限制星期，周六周日也会触发，由 job 内 case 的 *) 分支空跑退出，不会发消息。
+    - cron: '0 0 * * *'
   # 支持手动触发，方便测试
   workflow_dispatch:
 
