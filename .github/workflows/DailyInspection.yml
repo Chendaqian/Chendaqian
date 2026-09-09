@@ -2,9 +2,7 @@ name: Daily Inspection Reminder
 
 on:
   schedule:
-    # 东八区（UTC+8）周一至周五早晨 10:30 = UTC 02:30，cron 末位 1-5 表示周一到周五
-    - cron: '30 2 * * 1-5'
-  # 支持手动触发，方便测试
+    - cron: "0 */24 * * *" 
   workflow_dispatch:
 
 jobs:
