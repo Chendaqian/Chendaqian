@@ -50,50 +50,52 @@
 ## <img alt="GIF" src="/images/dev.gif" width="50" /> WakaTime
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-6%2C483%20hrs%2050%20mins-blue?style=flat) ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-272%20hrs%2032%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-6%2C483%20hrs%2050%20mins-blue?style=flat)
+
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-272%20hrs%2032%20mins-blue?style=flat)
 
 📊 **This Week I Spent My Time On** 
 
 ```text
 💬 Programming Languages: 
-Other                    20 hrs 4 mins       ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜   78.83 % 
-C#                       2 hrs 56 mins       ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   11.52 % 
-JavaScript               39 mins             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.56 % 
-Markdown                 31 mins             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.08 % 
-XML                      23 mins             ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.51 % 
+Other                    26 hrs 33 mins      ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜   79.05 % 
+C#                       4 hrs 26 mins       ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   13.23 % 
+Markdown                 40 mins             ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.99 % 
+JavaScript               39 mins             ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.94 % 
+XML                      23 mins             ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.14 % 
 
 🔥 Editors: 
-Edge                     17 hrs 16 mins      ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜   67.86 % 
-Codex CLI                3 hrs 37 mins       ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   14.26 % 
-Visual Studio            2 hrs 21 mins       ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   09.26 % 
-Claude Code              1 hr 30 mins        ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   05.89 % 
-VS Code                  41 mins             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.73 % 
+Edge                     24 hrs 2 mins       ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜   71.56 % 
+Codex CLI                3 hrs 59 mins       ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   11.89 % 
+Visual Studio            3 hrs 5 mins        ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   09.20 % 
+Claude Code              1 hr 30 mins        ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   04.47 % 
+VS Code                  46 mins             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.32 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 5 hrs 23 mins (21.18%)
+⏱ AI Coding Time: 5 hrs 58 mins (17.78%)
 
-✍️ 603 lines written by AI, 313 lines written by hand (65.83% AI-written)
+✍️ 603 lines written by AI, 442 lines written by hand (57.7% AI-written)
 
-🔤 3,645,986 Input Tokens, 595,027 Output Tokens
+🔤 3,827,863 Input Tokens, 647,077 Output Tokens
 
-💵 $24.36 Estimated AI Cost This Week
+💵 $26.02 Estimated AI Cost This Week
 
-🧠 13 AI Sessions, 81 AI Prompts
+🧠 15 AI Sessions, 90 AI Prompts
 
 Qwen                     779 lines           ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛   100.00 % 
 
 🔎 AI Coding Insights:
-⚖️ Balanced with AI — 65.83% of written lines came from AI
-📄 Detailed Prompter — average 667 characters per prompt
+⚖️ Balanced with AI — 57.7% of written lines came from AI
+📄 Detailed Prompter — average 718 characters per prompt
 🔁 Iterative Prompter — average 6 prompts per session
-🚀 High AI Trust — 30.88% of changed lines were hand-edited
+🚀 High AI Trust — 47.26% of changed lines were hand-edited
 ```
 
 
- Last Updated on 2026/10/12 14:12:21 UTC
+ Last Updated on 2026/10/13 00:03:01 UTC
 <!--END_SECTION:waka-->
 
 ![end.webp](/images/end.webp)
