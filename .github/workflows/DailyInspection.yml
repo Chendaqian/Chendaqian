@@ -22,8 +22,8 @@ jobs:
           day=$(TZ='Asia/Shanghai' date +%u)
           case "$day" in
             1) userName='石永富' ;;
-            2) userName='王刚、胡春华' ;;
-            3) userName='常竹林' ;;
+            2) userName='王刚' ;;
+            3) userName='胡春华' ;;
             4) userName='陈旭、曹桂源' ;;
             5) userName='肖禹辰' ;;
             *) echo '-' && exit 0 ;;
